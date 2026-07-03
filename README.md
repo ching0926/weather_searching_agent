@@ -1,9 +1,10 @@
 # 🌤️ Architecture Evolution: LangGraph 智慧天氣查詢 Agent
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/ching0296/weather_searching_agent?style=for-the-badge&color=8A2BE2" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/issues/ching0296/weather_searching_agent?style=for-the-badge&color=red" alt="GitHub issues" />
-  <img src="https://img.shields.io/github/license/ching0296/weather_searching_agent?style=for-the-badge&color=blue" alt="License" />
+  <img src="https://img.shields.io/badge/Project-Weather_Agent-🚀_purple?style=for-the-badge" alt="Project" />
+  <img src="https://img.shields.io/badge/Architecture-LangGraph-orange?style=for-the-badge" alt="Architecture" />
+  <img src="https://img.shields.io/badge/LLM_Brain-Llama_3.3_70B-1877F2?style=flat-square&logo=meta&logoColor=white" />
+  
 </p>
 
 本專案經歷了兩代 AI Agent 架構的迭代，旨在探索 LLM 工具調配（Tool Orchestration）的最佳實踐。專案**核心以 LangGraph 狀態機為主角**，將傳統 ReAct (Reason+Act) 的思考模式轉化為顯式的有向循環圖（Directed Graph）結構，以解決線性鏈在面對多輪工具呼叫（Tool Calling）時的狀態流失與失控痛點。
